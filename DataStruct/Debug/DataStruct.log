@@ -1,4 +1,3 @@
 ﻿  AttractionMap.cpp
-  AttractionMap.h
 Debug\AttractionMap.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
   DataStruct.vcxproj -> G:\C++demo\DataStruct\Debug\DataStruct.exe

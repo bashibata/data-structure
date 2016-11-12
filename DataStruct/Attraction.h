@@ -21,12 +21,12 @@ typedef struct ArcNode
 }ArcNode;
 
 
-typedef struct Attraction
+typedef struct AVnode
 {
-	ArcNode arcnode;
-	VNnode vnnode;
-	Attraction(ArcNode arc, VNnode vn) :arcnode(arc), vnnode(vn) {};
-}Atrraction;
+	ArcNode* arcnode;
+	VNnode* vnnode;
+	AVnode(ArcNode* arc, VNnode* vn) :arcnode(arc), vnnode(vn) {};
+}AVnode;
 #endif // !_ARCNODE_H
 
 // _ARCNODE_H
